@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Paint Plain</title>
+</head>
+<body>
+
+<form>
+    <label>Host:<input type="text" name="hostname"></label>
+</form>
+
+<p>
+Host:<span id="hostname">undefined</span><br/>
+Title:<span id="title">undefined</span>
+</p>
+
+<h3>Draw</h3>
+<form>
+    <label>Token:<input type="text" name="token"/></label><br/>
+    <label>X-axis:<input type="text" name="x" style="width: 25px;"></label>
+    <label>Y-axis:<input type="text" name="y" style="width: 25px;"></label>
+    <label>Zone:<input type="text" name="zone" style="width: 25px;"></label><br/>
+    <label>Red:<input type="text" name="r" style="width: 25px;"/></label>
+    <label>Green:<input type="text" name="g" style="width: 25px;"/></label>
+    <label>Blue:<input type="text" name="b" style="width: 25px;"/></label>
+    <label>Alpha:<input type="text" name="a" style="width: 25px;"/></label>
+    <br/>
+    <input type="submit"/>
+</form>
+
+<h3>Create Zone</h3>
+<form>
+    <label>Master Token:<input type="text" name="token"/></label><br/>
+    <label>Width:<input type="text" name="x" style="width: 25px;">(px)</label>
+    <label>Height:<input type="text" name="y" style="width: 25px;">(px)</label>
+    <label>Freeze time:<input type="text" name="zone" style="width: 25px;">(ticks)</label>
+    <br/>
+    <input type="submit"/>
+</form>
+
+</body>
+</html>
